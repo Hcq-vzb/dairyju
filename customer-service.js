@@ -166,6 +166,7 @@
   }
 
   function buildUI() {
+    if (document.getElementById('kiwl-cs-root')) return;
     root = document.createElement('div');
     root.id = 'kiwl-cs-root';
 
@@ -202,6 +203,12 @@
     root.appendChild(panel);
     root.appendChild(fab);
     document.body.appendChild(root);
+    // 始终保持在 body 最末尾，避免被 React 后渲染节点压住
+    setInterval(function () {
+      if (root.parentNode === document.body && document.body.lastElementChild !== root) {
+        document.body.appendChild(root);
+      }
+    }, 1000);
 
     messagesEl = panel.querySelector('.kiwl-cs-messages');
     optionsEl = panel.querySelector('.kiwl-cs-options');
@@ -221,7 +228,9 @@
       .then(function (data) { routeMeta = data; })
       .catch(function () {});
 
-    buildUI();
+    // 等 React 挂载完成后再插入，确保层级最高
+    setTimeout(buildUI, 300);
+    setTimeout(buildUI, 1500);
 
     var lastPath = getPath();
     setInterval(function () {
