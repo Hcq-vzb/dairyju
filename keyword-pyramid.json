@@ -1,0 +1,230 @@
+{
+  "brand": "KIWL Machine",
+  "domain": "dairyjuicemachinery.com",
+  "tiers": {
+    "T1_home": {
+      "label": "塔尖 · 品牌+核心词",
+      "primary": ["dairy juice processing machinery manufacturer", "KIWL Machine"],
+      "secondary": ["dairy processing equipment", "juice production line manufacturer", "beverage filling machine China"],
+      "longtail": ["turnkey dairy factory supplier", "milk juice processing plant exporter"]
+    },
+    "T2_category": {
+      "label": "塔身 · 品类词",
+      "products": ["dairy production line", "juice bottling line", "milk processing plant equipment"],
+      "equipment": ["UHT sterilizer", "pasteurizer machine", "filling packaging machine", "CIP cleaning system"],
+      "service": ["dairy equipment installation", "after-sale service beverage machinery"],
+      "news": ["dairy machinery industry news", "juice equipment exhibition"],
+      "contact": ["dairy machinery quote", "juice production line price inquiry"]
+    },
+    "T3_product": {
+      "label": "塔基 · 产品长尾词",
+      "pattern": "{product name} manufacturer, {product name} price, {product name} CE OEM China"
+    }
+  },
+  "pages": {
+    "/": {
+      "tier": "T1",
+      "title": "KIWL Machine | Dairy & Juice Processing Machinery Manufacturer",
+      "description": "KIWL Machine — China manufacturer of dairy processing equipment, juice production lines & beverage filling machines. Turnkey factory solutions, CE certified, exported to 50+ countries.",
+      "keywords": "dairy processing machinery manufacturer, juice production line manufacturer, beverage filling machine China, milk processing equipment, turnkey dairy factory, KIWL Machine"
+    },
+    "/products": {
+      "tier": "T2",
+      "title": "Dairy & Juice Production Lines | Products | KIWL Machine",
+      "description": "Complete dairy production lines, fruit juice bottling lines, yogurt & UHT milk plants. Factory-direct pricing, CE standard, OEM customization for global buyers.",
+      "keywords": "dairy production line, juice bottling line, milk processing plant, UHT milk line, yogurt production line, beverage production equipment supplier"
+    },
+    "/equipment": {
+      "tier": "T2",
+      "title": "Dairy & Beverage Equipment | Filling, Sterilization & CIP | KIWL",
+      "description": "Mechanical equipment for dairy & beverage: UHT sterilizers, pasteurizers, cup filling machines, CIP systems, RO purification. CE certified manufacturer from China.",
+      "keywords": "UHT sterilization machine, pasteurizer dairy, cup filling sealing machine, CIP cleaning system, beverage filling equipment, dairy mechanical equipment manufacturer"
+    },
+    "/service": {
+      "tier": "T2",
+      "title": "Service & Support | Installation & Training | KIWL Machine",
+      "description": "KIWL provides equipment installation, operator training, warranty & lifelong maintenance for dairy and juice processing lines worldwide.",
+      "keywords": "dairy equipment installation service, beverage machinery training, equipment warranty support, turnkey project service China"
+    },
+    "/enterprise-advantages": {
+      "tier": "T2",
+      "title": "Why Choose KIWL | Global Manufacturing & Innovation",
+      "description": "KIWL Machine advantages: global production plants, patented technology, equipment customization, engineers stationed worldwide for installation & support.",
+      "keywords": "dairy machinery manufacturer China, juice equipment factory, global installation service, dairy equipment patents, OEM customization"
+    },
+    "/news": {
+      "tier": "T2",
+      "title": "Industry News & Updates | KIWL Machine",
+      "description": "Latest news on dairy & juice machinery: product launches, Interpack exhibitions, partnerships and beverage industry trends from KIWL Machine.",
+      "keywords": "dairy machinery news, juice equipment exhibition, aseptic filling technology, beverage industry updates, KIWL news"
+    },
+    "/contact": {
+      "tier": "T2",
+      "title": "Contact Us | Get a Quote | KIWL Machine",
+      "description": "Request a factory quote for dairy processing equipment or juice production lines. Contact KIWL sales team for turnkey solutions and OEM pricing.",
+      "keywords": "dairy machinery quote, juice production line price, contact equipment manufacturer, inquiry milk processing plant, KIWL contact"
+    },
+    "/products/uht-milk": {
+      "tier": "T3",
+      "title": "UHT Milk Production Line | Long-Life Dairy Processing | KIWL",
+      "description": "UHT milk production line with ultra-high temperature sterilization for long shelf-life dairy. Complete turnkey system — homogenization, degassing, aseptic filling. CE certified.",
+      "keywords": "UHT milk production line, ultra high temperature milk processing, long life milk plant, aseptic milk filling line, dairy UHT sterilization manufacturer"
+    },
+    "/products/yogurt": {
+      "tier": "T3",
+      "title": "Yogurt Production Line | Fermented Dairy Plant | KIWL Machine",
+      "description": "Complete yogurt production line: milk pretreatment, fermentation, homogenization & cup filling. Set and stirred yogurt systems for commercial dairy factories.",
+      "keywords": "yogurt production line, fermented dairy equipment, yogurt plant manufacturer, commercial yogurt making machine, dairy fermentation line"
+    },
+    "/products/pasteurized": {
+      "tier": "T3",
+      "title": "Pasteurized Milk Production Line | Fresh Dairy Plant | KIWL",
+      "description": "Pasteurized milk production line for fresh cow and sheep milk. HTST pasteurization, standardization, homogenization and bottling — full turnkey solution.",
+      "keywords": "pasteurized milk production line, fresh milk processing plant, HTST pasteurizer milk, dairy pasteurization equipment, milk bottling line"
+    },
+    "/products/milk-powder": {
+      "tier": "T3",
+      "title": "Milk Powder Production Line | Spray Drying Plant | KIWL Machine",
+      "description": "Milk powder production line using spray drying technology. Low moisture, excellent solubility — complete powder processing from liquid milk to packaging.",
+      "keywords": "milk powder production line, spray drying milk plant, dairy powder processing equipment, milk powder making machine manufacturer"
+    },
+    "/products/juice": {
+      "tier": "T3",
+      "title": "Fruit Juice Production Line | Complete Bottling Plant | KIWL",
+      "description": "Fruit juice production line from fresh fruit or concentrate: extraction, homogenization, degassing, sterilization and PET/glass bottling. Turnkey juice factory.",
+      "keywords": "fruit juice production line, juice bottling plant, juice extraction equipment, commercial juice processing line, beverage juice factory China"
+    },
+    "/products/syrup": {
+      "tier": "T3",
+      "title": "Fruit Syrup Production Line | Concentrate Processing | KIWL",
+      "description": "Fruit syrup and base production line with vacuum concentration to preserve aroma. For beverages, desserts and food industry applications.",
+      "keywords": "fruit syrup production line, juice syrup machine, vacuum concentration equipment, beverage syrup processing plant"
+    },
+    "/products/concentrated": {
+      "tier": "T3",
+      "title": "Juice Concentrate Production Line | NFC & Concentrate | KIWL",
+      "description": "Juice concentrate production line with advanced evaporation technology. High-quality concentrate for export and beverage manufacturing.",
+      "keywords": "juice concentrate production line, fruit concentrate plant, juice evaporation equipment, NFC juice processing"
+    },
+    "/products/evaporated": {
+      "tier": "T3",
+      "title": "Evaporated & Condensed Milk Line | KIWL Machine",
+      "description": "Evaporated and sweetened condensed milk production line with controlled evaporation and sugar addition. For baking, confectionery and retail.",
+      "keywords": "evaporated milk production line, condensed milk plant, sweetened condensed milk equipment, dairy evaporation processing"
+    },
+    "/products/soymilk": {
+      "tier": "T3",
+      "title": "Soymilk Production Line | Plant-Based Beverage Plant | KIWL",
+      "description": "Soymilk and plant-based beverage production line: soaking, grinding, cooking, homogenization and UHT sterilization. Complete nuts & soybean milk system.",
+      "keywords": "soymilk production line, plant based milk equipment, soybean milk processing plant, nut milk production line manufacturer"
+    },
+    "/products/carbonated": {
+      "tier": "T3",
+      "title": "Carbonated Beverage Production Line | Soda Filling Plant | KIWL",
+      "description": "Carbonated soft drink production line for soda, cola and sparkling water. Precision syrup mixing, CO2 carbonation and bottle filling integration.",
+      "keywords": "carbonated beverage production line, soda filling plant, soft drink bottling line, CO2 drink production equipment"
+    },
+    "/products/mineral": {
+      "tier": "T3",
+      "title": "Mineral Water Production Line | Bottled Water Plant | KIWL",
+      "description": "Mineral water production line with multi-stage filtration, UV/ozone sterilization and blowing-filling-capping integration for safe drinking water.",
+      "keywords": "mineral water production line, bottled water plant, water bottling equipment, spring water processing line manufacturer"
+    },
+    "/products/pure": {
+      "tier": "T3",
+      "title": "Pure Water Production Line | RO Bottling System | KIWL",
+      "description": "Pure water production line with reverse osmosis purification, meeting highest drinking water quality standards. Turnkey RO bottling solution.",
+      "keywords": "pure water production line, RO water bottling plant, purified water processing equipment, drinking water filling line"
+    },
+    "/products/plastic-cup-filling": {
+      "tier": "T3",
+      "title": "Cup Filling Sealing Machine | Milk Yogurt Coffee | KIWL",
+      "description": "Plastic cup filling and sealing machine for milk, yogurt and coffee. Hygienic packaging, high-speed operation, automatic cup feeding and foil sealing.",
+      "keywords": "cup filling sealing machine, yogurt cup filler, dairy cup packaging machine, plastic cup filling equipment manufacturer"
+    },
+    "/products/high-speed-cup": {
+      "tier": "T3",
+      "title": "High Speed Cup Filling Machine | Powder & Granule | KIWL",
+      "description": "High-speed automatic cup filling machine for capsules, granules and powder. Ideal for coffee, tea and supplement packaging with nitrogen flushing option.",
+      "keywords": "automatic cup filling machine, powder filling equipment, granule cup filler, high speed packaging machine dairy"
+    },
+    "/products/plastic-cup-forming": {
+      "tier": "T3",
+      "title": "Cup Forming Filling Sealing Machine | Form-Fill-Seal | KIWL",
+      "description": "All-in-one plastic cup forming, filling and sealing machine from PP/PS sheet rolls. Reduces material costs with compact footprint and high automation.",
+      "keywords": "form fill seal machine, cup forming filling machine, thermoforming cup packaging, FFS dairy packaging equipment"
+    },
+    "/products/cheese-making": {
+      "tier": "T3",
+      "title": "Cheese Making Machine | Mozzarella & Cheddar | KIWL",
+      "description": "Complete cheese making equipment for mozzarella, cheddar, cottage cheese and more. Professional dairy cheese processing systems for commercial production.",
+      "keywords": "cheese making machine, mozzarella production equipment, cheddar cheese plant, commercial cheese processing line"
+    },
+    "/products/hot-water-sterilizer": {
+      "tier": "T3",
+      "title": "Hot Water Sterilizer Autoclave | Retort Machine | KIWL",
+      "description": "Industrial autoclave for packaged food and beverage sterilization. Hot water spray and immersion for uniform heat distribution and commercial sterility.",
+      "keywords": "autoclave sterilizer, retort sterilization machine, hot water spray sterilizer, packaged food sterilization equipment"
+    },
+    "/products/spray-sterilization": {
+      "tier": "T3",
+      "title": "Spray Sterilization Tunnel | Bottle & Can Sterilizer | KIWL",
+      "description": "Continuous spray sterilization tunnel for bottles and cans. Ensures surface sterility before labeling and packaging in beverage production lines.",
+      "keywords": "spray sterilization tunnel, bottle sterilizer machine, can sterilization equipment, beverage tunnel pasteurizer"
+    },
+    "/products/reverse-osmosis": {
+      "tier": "T3",
+      "title": "Reverse Osmosis Water Purification System | RO Plant | KIWL",
+      "description": "High-efficiency reverse osmosis system for water purification. Removes impurities, bacteria and dissolved solids for dairy, beverage and pharmaceutical use.",
+      "keywords": "reverse osmosis system, RO water purification plant, industrial water treatment equipment, beverage RO filtration"
+    },
+    "/products/uht-milk-juice": {
+      "tier": "T3",
+      "title": "UHT Sterilization Machine | Milk & Juice | KIWL Machine",
+      "description": "UHT tube and plate sterilization machine for milk and juice. Achieves commercial sterility for long shelf-life products without refrigeration.",
+      "keywords": "UHT sterilization machine, milk juice sterilizer, ultra high temperature equipment, tube UHT pasteurizer manufacturer"
+    },
+    "/products/juice-pulp-pasteurizer": {
+      "tier": "T3",
+      "title": "Plate Pasteurizer | Juice Pulp & Milk | KIWL Machine",
+      "description": "Plate type pasteurizer for juice with pulp and milk. Efficient heat exchange with gentle treatment to preserve product quality and nutrition.",
+      "keywords": "plate pasteurizer, juice pulp pasteurizer, milk plate heat exchanger, HTST plate sterilizer dairy"
+    },
+    "/products/fruit-processing": {
+      "tier": "T3",
+      "title": "Fruit Processing Equipment | Washing Sorting Peeling | KIWL",
+      "description": "Comprehensive fruit processing equipment: washing, sorting, peeling and cutting for juice and jam production lines. Food-grade stainless steel.",
+      "keywords": "fruit processing equipment, fruit washing sorting machine, fruit peeling line, pre-processing fruit juice plant"
+    },
+    "/products/fruit-juice-line": {
+      "tier": "T3",
+      "title": "Commercial Fruit Juice Line | Extraction to Bottling | KIWL",
+      "description": "Complete commercial fruit juice line from raw fruit to bottled product. Extraction, filtration, blending, sterilization and aseptic or hot-fill bottling.",
+      "keywords": "commercial fruit juice line, juice extraction bottling plant, fruit beverage production equipment, juice factory turnkey"
+    },
+    "/products/uht-milk-sterilization": {
+      "tier": "T3",
+      "title": "UHT Milk Sterilizer | Commercial Sterility | KIWL Machine",
+      "description": "Specialized UHT milk sterilization machine ensuring commercial sterility and extended shelf life. Tube and plate type options for dairy processors.",
+      "keywords": "UHT milk sterilizer, commercial milk sterilization, dairy UHT equipment, long shelf life milk machine"
+    },
+    "/news/news-001": {
+      "tier": "T3",
+      "title": "Next-Gen Aseptic Filling Technology 2025 | KIWL Machine News",
+      "description": "KIWL launches next-generation aseptic filling technology with 99.9% sterility assurance and 30% higher efficiency for dairy and beverage industries.",
+      "keywords": "aseptic filling technology, dairy filling innovation, beverage sterilization news, KIWL product launch 2025"
+    },
+    "/news/news-002": {
+      "tier": "T3",
+      "title": "Smart Factory Solutions at Interpack 2025 | KIWL News",
+      "description": "KIWL Machinery showcases AI-driven production lines and IoT monitoring systems at Interpack 2025, the world's leading packaging trade fair.",
+      "keywords": "Interpack 2025 dairy machinery, smart factory beverage, IoT production line, packaging exhibition KIWL"
+    },
+    "/news/news-003": {
+      "tier": "T3",
+      "title": "European Dairy Partnership | Sustainable Packaging | KIWL",
+      "description": "KIWL partners with European dairy leaders for sustainable packaging solutions, advancing eco-friendly beverage and dairy production technology.",
+      "keywords": "sustainable dairy packaging, European dairy partnership, eco beverage equipment, green packaging machinery"
+    }
+  }
+}
